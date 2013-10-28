@@ -1,8 +1,8 @@
 {
 	"packrat_format" : "1.0",
 	"packrat_version" : "0.1.0",
-	"r_version" : "3.0.0",
-	"repos" : "http://cran.rstudio.com/",
+	"r_version" : "3.0.1",
+	"repos" : "http://cran.rstudio.com",
 	"packages" : [
 		{
 			"name" : "ggplot2",
@@ -120,7 +120,6 @@
 			"name" : "packrat",
 			"source" : "source",
 			"version" : "0.1.0",
-			"source_path" : "/home/jcheng/development/packrat",
 			"depends" : [
 				{
 					"name" : "RJSONIO",
@@ -251,33 +250,6 @@
 							"source" : "CRAN",
 							"version" : "0.6.3",
 							"depends" : []
-						}
-					]
-				}
-			]
-		},
-		{
-			"name" : "TTR",
-			"source" : "CRAN",
-			"version" : "0.22-0",
-			"depends" : [
-				{
-					"name" : "xts",
-					"source" : "CRAN",
-					"version" : "0.9-7",
-					"depends" : [
-						{
-							"name" : "zoo",
-							"source" : "CRAN",
-							"version" : "1.7-10",
-							"depends" : [
-								{
-									"name" : "lattice",
-									"source" : "CRAN",
-									"version" : "0.20-24",
-									"depends" : []
-								}
-							]
 						}
 					]
 				}
