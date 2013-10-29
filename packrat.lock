@@ -1,9 +1,127 @@
 {
 	"packrat_format" : "1.0",
 	"packrat_version" : "0.1.0",
-	"r_version" : "3.0.1",
-	"repos" : "http://cran.rstudio.com",
+	"r_version" : "3.0.2",
+	"repos" : [
+		"http://cran.rstudio.com",
+		"http://bioconductor.org/packages/2.12/bioc",
+		"http://bioconductor.org/packages/2.12/data/annotation",
+		"http://bioconductor.org/packages/2.12/data/experiment",
+		"http://bioconductor.org/packages/2.12/extra"
+	],
 	"packages" : [
+		{
+			"name" : "ggplot2",
+			"source" : "CRAN",
+			"version" : "0.9.3.1",
+			"depends" : [
+				{
+					"name" : "plyr",
+					"source" : "CRAN",
+					"version" : "1.8",
+					"depends" : []
+				},
+				{
+					"name" : "digest",
+					"source" : "CRAN",
+					"version" : "0.6.3",
+					"depends" : []
+				},
+				{
+					"name" : "gtable",
+					"source" : "CRAN",
+					"version" : "0.1.2",
+					"depends" : []
+				},
+				{
+					"name" : "reshape2",
+					"source" : "CRAN",
+					"version" : "1.2.2",
+					"depends" : [
+						{
+							"name" : "plyr",
+							"source" : "CRAN",
+							"version" : "1.8",
+							"depends" : []
+						},
+						{
+							"name" : "stringr",
+							"source" : "CRAN",
+							"version" : "0.6.2",
+							"depends" : []
+						},
+						{
+							"name" : "lattice",
+							"source" : "CRAN",
+							"version" : "0.20-24",
+							"depends" : []
+						}
+					]
+				},
+				{
+					"name" : "scales",
+					"source" : "CRAN",
+					"version" : "0.2.3",
+					"depends" : [
+						{
+							"name" : "RColorBrewer",
+							"source" : "CRAN",
+							"version" : "1.0-5",
+							"depends" : []
+						},
+						{
+							"name" : "stringr",
+							"source" : "CRAN",
+							"version" : "0.6.2",
+							"depends" : []
+						},
+						{
+							"name" : "dichromat",
+							"source" : "CRAN",
+							"version" : "2.0-0",
+							"depends" : []
+						},
+						{
+							"name" : "munsell",
+							"source" : "CRAN",
+							"version" : "0.4.2",
+							"depends" : [
+								{
+									"name" : "colorspace",
+									"source" : "CRAN",
+									"version" : "1.2-4",
+									"depends" : []
+								}
+							]
+						},
+						{
+							"name" : "plyr",
+							"source" : "CRAN",
+							"version" : "1.8",
+							"depends" : []
+						},
+						{
+							"name" : "labeling",
+							"source" : "CRAN",
+							"version" : "0.2",
+							"depends" : []
+						}
+					]
+				},
+				{
+					"name" : "proto",
+					"source" : "CRAN",
+					"version" : "0.3-10",
+					"depends" : []
+				},
+				{
+					"name" : "MASS",
+					"source" : "CRAN",
+					"version" : "7.3-29",
+					"depends" : []
+				}
+			]
+		},
 		{
 			"name" : "packrat",
 			"source" : "github",
