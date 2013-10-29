@@ -1,9 +1,28 @@
 {
 	"packrat_format" : "1.0",
 	"packrat_version" : "0.1.0",
-	"r_version" : "3.0.1",
-	"repos" : "http://cran.rstudio.com",
+	"r_version" : "3.0.2",
+	"repos" : "http://cran.rstudio.com/",
 	"packages" : [
+		{
+			"name" : "ABCExtremes",
+			"source" : "CRAN",
+			"version" : "1.0",
+			"depends" : [
+				{
+					"name" : "SpatialExtremes",
+					"source" : "CRAN",
+					"version" : "2.0-0",
+					"depends" : []
+				},
+				{
+					"name" : "combinat",
+					"source" : "CRAN",
+					"version" : "0.0-8",
+					"depends" : []
+				}
+			]
+		},
 		{
 			"name" : "ggplot2",
 			"source" : "CRAN",
