@@ -1,0 +1,178 @@
+{
+	"packrat_format" : "1.0",
+	"packrat_version" : "0.1.0",
+	"r_version" : "3.0.1",
+	"repos" : "http://cran.rstudio.com",
+	"packages" : [
+		{
+			"name" : "packrat",
+			"source" : "github",
+			"version" : "0.1.0",
+			"gh_repo" : "packrat",
+			"gh_username" : "rstudio",
+			"gh_ref" : "master",
+			"gh_sha1" : "503ebdf506eef6e9ee5af72cdd07545bfe9304fd",
+			"depends" : [
+				{
+					"name" : "RJSONIO",
+					"source" : "CRAN",
+					"version" : "1.0-3",
+					"depends" : []
+				},
+				{
+					"name" : "devtools",
+					"source" : "github",
+					"version" : "1.3.99",
+					"gh_repo" : "devtools",
+					"gh_username" : "hadley",
+					"gh_ref" : "master",
+					"gh_sha1" : "631f4b1268e0217b955643820bcf355811dd1466",
+					"depends" : [
+						{
+							"name" : "httr",
+							"source" : "CRAN",
+							"version" : "0.2",
+							"depends" : [
+								{
+									"name" : "RCurl",
+									"source" : "CRAN",
+									"version" : "1.95-4.1",
+									"depends" : [
+										{
+											"name" : "bitops",
+											"source" : "CRAN",
+											"version" : "1.0-6",
+											"depends" : []
+										}
+									]
+								},
+								{
+									"name" : "stringr",
+									"source" : "CRAN",
+									"version" : "0.6.2",
+									"depends" : []
+								},
+								{
+									"name" : "digest",
+									"source" : "CRAN",
+									"version" : "0.6.3",
+									"depends" : []
+								}
+							]
+						},
+						{
+							"name" : "RCurl",
+							"source" : "CRAN",
+							"version" : "1.95-4.1",
+							"depends" : [
+								{
+									"name" : "bitops",
+									"source" : "CRAN",
+									"version" : "1.0-6",
+									"depends" : []
+								}
+							]
+						},
+						{
+							"name" : "memoise",
+							"source" : "CRAN",
+							"version" : "0.1",
+							"depends" : [
+								{
+									"name" : "digest",
+									"source" : "CRAN",
+									"version" : "0.6.3",
+									"depends" : []
+								}
+							]
+						},
+						{
+							"name" : "whisker",
+							"source" : "CRAN",
+							"version" : "0.3-2",
+							"depends" : []
+						},
+						{
+							"name" : "evaluate",
+							"source" : "CRAN",
+							"version" : "0.5.1",
+							"depends" : [
+								{
+									"name" : "stringr",
+									"source" : "CRAN",
+									"version" : "0.6.2",
+									"depends" : []
+								}
+							]
+						},
+						{
+							"name" : "digest",
+							"source" : "CRAN",
+							"version" : "0.6.3",
+							"depends" : []
+						}
+					]
+				},
+				{
+					"name" : "httr",
+					"source" : "CRAN",
+					"version" : "0.2",
+					"depends" : [
+						{
+							"name" : "RCurl",
+							"source" : "CRAN",
+							"version" : "1.95-4.1",
+							"depends" : [
+								{
+									"name" : "bitops",
+									"source" : "CRAN",
+									"version" : "1.0-6",
+									"depends" : []
+								}
+							]
+						},
+						{
+							"name" : "stringr",
+							"source" : "CRAN",
+							"version" : "0.6.2",
+							"depends" : []
+						},
+						{
+							"name" : "digest",
+							"source" : "CRAN",
+							"version" : "0.6.3",
+							"depends" : []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "TTR",
+			"source" : "CRAN",
+			"version" : "0.22-0",
+			"depends" : [
+				{
+					"name" : "xts",
+					"source" : "CRAN",
+					"version" : "0.9-7",
+					"depends" : [
+						{
+							"name" : "zoo",
+							"source" : "CRAN",
+							"version" : "1.7-10",
+							"depends" : [
+								{
+									"name" : "lattice",
+									"source" : "CRAN",
+									"version" : "0.20-24",
+									"depends" : []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
